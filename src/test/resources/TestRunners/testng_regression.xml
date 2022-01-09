@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite">
+  <test thread-count="5" name="My Swag Labs Login and Logout Tests">
+    <classes>
+      <class name="MyTests.SwagLabsLoginPageTest"/>
+      <class name="MyTests.PerformanceGlitchUser"/>
+      <class name="MyTests.SwagLabsLogoutPageTest"/>
+      <class name="MyTests.SwagLabsLoginPageTest_Case2"/>
+      <class name="MyTests.LockedOutUserTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,61 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-08T22:02:49 EST" name="Default suite" finished-at="2022-01-08T22:03:00 EST" duration-ms="11161">
+  <suite started-at="2022-01-09T01:42:46 EST" name="My Smoke Test Suite" finished-at="2022-01-09T01:43:03 EST" duration-ms="16644">
     <groups>
     </groups>
-    <test started-at="2022-01-08T22:02:49 EST" name="Default test" finished-at="2022-01-08T22:03:00 EST" duration-ms="11161">
-      <class name="learntestng.SwagLabsLoginPageTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:learntestng.SwagLabsLoginPageTest@29e495ff]" started-at="2022-01-08T22:02:49 EST" name="launchBrowser" finished-at="2022-01-08T22:02:51 EST" duration-ms="2520" status="PASS">
+    <test started-at="2022-01-09T01:42:46 EST" name="My Smoke Test" finished-at="2022-01-09T01:43:03 EST" duration-ms="16644">
+      <class name="MyTests.SwagLabsLogoutPageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:MyTests.SwagLabsLogoutPageTest@4d5b6aac]" started-at="2022-01-09T01:42:59 EST" name="launchBrowser" finished-at="2022-01-09T01:43:01 EST" duration-ms="1956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyTitle()[pri:1, instance:learntestng.SwagLabsLoginPageTest@29e495ff]" started-at="2022-01-08T22:02:51 EST" name="verifyTitle" finished-at="2022-01-08T22:02:51 EST" duration-ms="22" status="PASS">
+        <test-method signature="logout()[pri:0, instance:MyTests.SwagLabsLogoutPageTest@4d5b6aac]" started-at="2022-01-09T01:43:01 EST" name="logout" finished-at="2022-01-09T01:43:02 EST" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyTests.SwagLabsLogoutPageTest@4d5b6aac]" started-at="2022-01-09T01:43:02 EST" name="closeBrowser" finished-at="2022-01-09T01:43:03 EST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- MyTests.SwagLabsLogoutPageTest -->
+      <class name="MyTests.SwagLabsLoginPageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:MyTests.SwagLabsLoginPageTest@be35cd9]" started-at="2022-01-09T01:42:46 EST" name="launchBrowser" finished-at="2022-01-09T01:42:49 EST" duration-ms="2776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyTitle()[pri:1, instance:MyTests.SwagLabsLoginPageTest@be35cd9]" started-at="2022-01-09T01:42:49 EST" name="verifyTitle" finished-at="2022-01-09T01:42:49 EST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:learntestng.SwagLabsLoginPageTest@29e495ff]" started-at="2022-01-08T22:02:51 EST" name="closeBrowser" finished-at="2022-01-08T22:02:52 EST" duration-ms="642" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyTests.SwagLabsLoginPageTest@be35cd9]" started-at="2022-01-09T01:42:49 EST" name="closeBrowser" finished-at="2022-01-09T01:42:50 EST" duration-ms="673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:learntestng.SwagLabsLoginPageTest@29e495ff]" started-at="2022-01-08T22:02:52 EST" name="launchBrowser" finished-at="2022-01-08T22:02:54 EST" duration-ms="1797" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:MyTests.SwagLabsLoginPageTest@be35cd9]" started-at="2022-01-09T01:42:50 EST" name="launchBrowser" finished-at="2022-01-09T01:42:52 EST" duration-ms="1905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="loginLogoPresent()[pri:2, instance:learntestng.SwagLabsLoginPageTest@29e495ff]" started-at="2022-01-08T22:02:54 EST" name="loginLogoPresent" finished-at="2022-01-08T22:02:54 EST" duration-ms="82" status="PASS">
+        <test-method signature="loginLogoPresent()[pri:2, instance:MyTests.SwagLabsLoginPageTest@be35cd9]" started-at="2022-01-09T01:42:52 EST" name="loginLogoPresent" finished-at="2022-01-09T01:42:52 EST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLogoPresent -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:learntestng.SwagLabsLoginPageTest@29e495ff]" started-at="2022-01-08T22:02:54 EST" name="closeBrowser" finished-at="2022-01-08T22:02:54 EST" duration-ms="641" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyTests.SwagLabsLoginPageTest@be35cd9]" started-at="2022-01-09T01:42:52 EST" name="closeBrowser" finished-at="2022-01-09T01:42:53 EST" duration-ms="667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:learntestng.SwagLabsLoginPageTest@29e495ff]" started-at="2022-01-08T22:02:54 EST" name="launchBrowser" finished-at="2022-01-08T22:02:56 EST" duration-ms="1733" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:MyTests.SwagLabsLoginPageTest@be35cd9]" started-at="2022-01-09T01:42:53 EST" name="launchBrowser" finished-at="2022-01-09T01:42:54 EST" duration-ms="1891" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyLoginBotLogo()[pri:3, instance:learntestng.SwagLabsLoginPageTest@29e495ff]" started-at="2022-01-08T22:02:56 EST" name="verifyLoginBotLogo" finished-at="2022-01-08T22:02:56 EST" duration-ms="58" status="PASS">
+        <test-method signature="verifyLoginBotLogo()[pri:3, instance:MyTests.SwagLabsLoginPageTest@be35cd9]" started-at="2022-01-09T01:42:54 EST" name="verifyLoginBotLogo" finished-at="2022-01-09T01:42:55 EST" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginBotLogo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:learntestng.SwagLabsLoginPageTest@29e495ff]" started-at="2022-01-08T22:02:56 EST" name="closeBrowser" finished-at="2022-01-08T22:02:57 EST" duration-ms="653" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyTests.SwagLabsLoginPageTest@be35cd9]" started-at="2022-01-09T01:42:55 EST" name="closeBrowser" finished-at="2022-01-09T01:42:55 EST" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:learntestng.SwagLabsLoginPageTest@29e495ff]" started-at="2022-01-08T22:02:57 EST" name="launchBrowser" finished-at="2022-01-08T22:02:58 EST" duration-ms="1714" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:MyTests.SwagLabsLoginPageTest@be35cd9]" started-at="2022-01-09T01:42:55 EST" name="launchBrowser" finished-at="2022-01-09T01:42:57 EST" duration-ms="2014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="login()[pri:4, instance:learntestng.SwagLabsLoginPageTest@29e495ff]" started-at="2022-01-08T22:02:58 EST" name="login" finished-at="2022-01-08T22:02:59 EST" duration-ms="548" status="PASS">
+        <test-method signature="login()[pri:4, instance:MyTests.SwagLabsLoginPageTest@be35cd9]" started-at="2022-01-09T01:42:57 EST" name="login" finished-at="2022-01-09T01:42:58 EST" duration-ms="941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:learntestng.SwagLabsLoginPageTest@29e495ff]" started-at="2022-01-08T22:02:59 EST" name="closeBrowser" finished-at="2022-01-08T22:03:00 EST" duration-ms="700" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyTests.SwagLabsLoginPageTest@be35cd9]" started-at="2022-01-09T01:42:58 EST" name="closeBrowser" finished-at="2022-01-09T01:42:59 EST" duration-ms="695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- learntestng.SwagLabsLoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- MyTests.SwagLabsLoginPageTest -->
+    </test> <!-- My Smoke Test -->
+  </suite> <!-- My Smoke Test Suite -->
 </testng-results>
